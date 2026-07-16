@@ -1,0 +1,29 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "surplusshare-01",
+          "appId": "1:830664055084:android:ee0cc7746b23a0a0243489",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "surplusshare-01",
+          "configurations": {
+            "android": "1:830664055084:android:ee0cc7746b23a0a0243489",
+            "ios": "1:830664055084:ios:531e08e3c0e5a1a3243489",
+            "macos": "1:830664055084:ios:531e08e3c0e5a1a3243489",
+            "web": "1:830664055084:web:cefac0c19006fcb2243489",
+            "windows": "1:830664055084:web:cefac0c19006fcb2243489"
+          }
+        }
+      }
+    }
+  }
+}

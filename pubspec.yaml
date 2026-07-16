@@ -1,0 +1,35 @@
+name: surplus_share
+description: A food surplus sharing platform connecting suppliers with NGOs.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  cloud_firestore: ^5.6.1
+  firebase_auth: ^5.7.0
+  firebase_storage: ^12.4.10
+  google_sign_in: ^6.3.0
+  lucide_icons: ^0.257.0
+  firebase_core: ^3.15.2
+  provider: ^6.1.5+1
+  http: ^1.6.0
+  shared_preferences: ^2.5.5
+  flutter_map: ^8.3.0
+  latlong2: ^0.9.1
+  mailer: ^7.1.0
+  flutter_animate: ^4.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
